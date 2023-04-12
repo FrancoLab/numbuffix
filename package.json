@@ -1,0 +1,30 @@
+{
+  "name": "numbuffix",
+  "version": "1.0.0",
+  "description": "A utility to format numbers with appropriate suffixes (k, Million, Billion)",
+  "main": "dist/formatter.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "number",
+    "formatting",
+    "suffix",
+    "large-numbers",
+    "notation",
+    "abbreviation",
+    "shortening",
+    "k",
+    "million",
+    "billion"
+  ],
+  "author": "Grootspook",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
