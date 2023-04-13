@@ -44,10 +44,12 @@ console.log(noCurrency);
 
 ## API
 
-formatter(number: number, currencySymbol?: string): string
-number: The number you want to format.
-currencySymbol: (Optional) The currency symbol to use. Default is $. Pass an empty string to use the formatter without a
+### `formatter(number: number, currencySymbol?: string): string`
+`number`: The number you want to format.
+
+`currencySymbol`: (Optional) The currency symbol to use. Default is $. Pass an empty string to use the formatter without a
 currency symbol.
+
 Returns a formatted string with the currency symbol (if specified) and the appropriate metric suffix.
 
 ## License
