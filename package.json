@@ -1,6 +1,6 @@
 {
   "name": "numbuffix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility to format numbers with appropriate suffixes (k, Million, Billion)",
   "main": "dist/formatter.js",
   "scripts": {
