@@ -6,9 +6,6 @@ type SuffixObject = {
 // formatter.ts
 // formatter.ts
 const formatter = (number: number, currencySymbol: string = '$'): string => {
-    if (typeof number !== 'number') {
-        throw new Error('Invalid input: number must be a valid number.');
-    }
 
     const sign = number < 0 ? '-' : '';
     const absNumber = Math.abs(number);
