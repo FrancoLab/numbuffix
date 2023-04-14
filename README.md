@@ -1,6 +1,3 @@
-markdown
-Copy code
-
 # numbuffix
 
 A simple and lightweight number formatting library for converting numbers into a human-readable format with currency
